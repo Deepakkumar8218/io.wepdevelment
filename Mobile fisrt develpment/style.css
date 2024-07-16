@@ -1,0 +1,105 @@
+*{
+  margin: 0px ;
+  padding: 0px;
+  text-decoration: none;
+}
+.cover {
+   width: 100%;
+   max-width: 500px;
+   border-radius: 10px;
+
+}
+.images{
+  align-self: center;
+}
+
+h1 {
+font-size: 40px;
+
+}
+.price{
+ font-size: 28px;
+}
+.titele {
+  font-size: 16px;
+  color:grey;
+
+}
+h1, .price, .titele {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+   border: none;
+   background-color: blue;
+   color: aliceblue;
+   font-size: 20px;
+   padding:15px 40px ; 
+   border-radius: 5px;
+  
+
+}
+.details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.product{
+  display:flex;
+  flex-direction:column ;
+  padding: 20px;
+  max-width: 1000px;
+  
+
+
+}
+.body > img {
+   min-width: 0;
+
+} .body{
+  display:none;
+}
+
+@media (min-width:750px) {
+.product {
+ flex-direction: row-reverse;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin: auto;
+
+  
+}
+
+}
+.images {
+   width: 40%;
+}
+.details{
+   width: 60%;
+
+}
+button{
+  align-self:flex-start;
+}
+.body {
+     display: flex;
+     gap: 5px;
+
+}
+#center {
+          padding-top: 20px;
+          
+    
+          
+}.body > img {
+  border-radius: 10px;
+}
+h2 {
+   text-align: center;
+    padding:20px 20px;
+    color: green;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
